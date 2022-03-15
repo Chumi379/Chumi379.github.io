@@ -199,10 +199,9 @@
 <p>但是如果想用以上代码简单修改后解决：<a target="_blank" rel="noopener" href="https://www.acwing.com/problem/content/719/">https://www.acwing.com/problem/content/719/</a> 这道题目是不能够的。必定是超时，这时候我们就要涉及到代码的优化。那么，如何进行优化呢？</p>
 <p>这就涉及到<strong>递归的本质</strong>。</p>
 <h3 id="递归搜索树"><a href="#递归搜索树" class="headerlink" title="递归搜索树"></a>递归搜索树</h3><p>所有递归都可以转化为一棵递归搜索树。递归和栈有很大的关系。并且，递归是一种<strong>深度优先遍历（DFS）</strong>。例如我们要求求斐波那契数列的第6项，递归搜索树如下：</p>
-<p><img src="/.com//Blog\blog\source_posts\第一课：递归与递推\递归搜索树-16444658805191.png" alt="递归搜索树"></p>
+<p><img src="http://r8qvwk4br.hn-bkt.clouddn.com/%E9%80%92%E5%BD%92%E6%90%9C%E7%B4%A2%E6%A0%91-16444658805191.png"></p>
 <p>程序执行等于前序遍历，求结果等于后序遍历。</p>
 <p>对于以上递归搜索树，我们想减小时间复杂度，可以<strong>剪枝</strong>。</p>
-<p><img src="http://r8qvwk4br.hn-bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220315001609.jpg"></p>
 
             <div class="clearfix"></div>
             <hr class="nogutter">
